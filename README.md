@@ -6,18 +6,12 @@ A Python script for adjusting the timer in Splatoon in 3 different modes:
 - Battle Dojo
 - Amiibo timed challenges
 
-**Files:**
+**Requirements:**
 
-tcpgecko.py is the actual library, can use just it in IDLE (only tested on python 2)
+This script requires Python 2.7.
 
-octoling.py is a sample script to use it, to swap Inkling model with Octolings in Splatoon and edit money.
-
-common.py is another library to make things easier to work with.
-
-codehandler is in /codehandler, just run make
+That's it really.
 
 **Credits:**
 
-Python library: NWPlayer123
-
-TCPGecko codehandler: Chadderz, Marionumber1
+Script structure based on Seresaresa's Splat-AIO. I couldn't make a better and simple program without it.
