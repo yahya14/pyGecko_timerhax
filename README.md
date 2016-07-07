@@ -1,6 +1,10 @@
 
-# pyGecko
-Python library for use with TCPGecko. Requires kernel exploit to use.
+# Timerhax for Splatoon v2.9.0
+A Python script for adjusting the timer in Splatoon in 3 different modes:
+
+- Recon
+- Battle Dojo
+- Amiibo timed challenges
 
 **Files:**
 
