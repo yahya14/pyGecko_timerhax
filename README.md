@@ -14,4 +14,4 @@ That's it really.
 
 **Credits:**
 
-Script structure based on Seresaa's Splat-AIO. I couldn't make this without it.
+Script structure based on Seresaa's Splat-AIO. I couldn't make this program without it.
