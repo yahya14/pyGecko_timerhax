@@ -12,7 +12,7 @@ dojo_timer = True
 while dojo_timer:
 	dojo_timer_addr = int(hexlify(tcp.readmem(0x1CAAA218, 4)), 16) + int(0x280)
 	
-	print("""Please set time value in seconds. Anything over 6039 s will make the time freeze. \nType 0 to return to the menu.""")
+	print("""Please set time value in seconds. Anything over 6039 s will make the time freeze. 71582780 s is the maximum.\nType 0 to return to the menu.""")
 	try:
 		dojo_timer = int(input(">> "))
 		dojo_timer_poke = dojo_timer * 60

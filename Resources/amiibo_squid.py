@@ -1,4 +1,5 @@
 #from tcpgecko import TCPGecko
+absolutely_unused_variable = os.system("cls")
 
 print("""Please  launch into a recon stage before you begin.""")
 	
@@ -13,7 +14,7 @@ while amiibo_timer:
 	#amiibo_timer_addr = int(hexlify(tcp.readmem(0x1CAB476C, 4)), 16) + int(0x2B4)
 	amiibo_timer_addr = int(hexlify(tcp.readmem(0x1CAB5778, 4)), 16) + int(0x2B4)
 	
-	print("""Please set time value in seconds. Anything over 180 s to 240 s (depending on the stage) will make the time freeze.\nType 0 to return to the menu.""")
+	print("""Please set time value in seconds. Anything over 180 s to 240 s (depending on the stage) will make the time freeze.\n71582780 s is the maximum.\nType 0 to return to the menu.""")
 	try:
 		amiibo_timer = int(input(">> "))
 		amiibo_timer_poke = amiibo_timer * 60
