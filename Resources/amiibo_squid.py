@@ -1,16 +1,15 @@
 #from tcpgecko import TCPGecko
 
+print("""Please  launch into a recon stage before you begin.""")
+	
+raw_input("Press ENTER to continue.")
+	
+tcp = TCPGecko(ip)
+print("""\n""")
+
 
 amiibo_timer = True
 while amiibo_timer:
-	absolutely_unused_variable = os.system("cls")
-	print("""Please launch into one of the squid amiibo timed stages before you begin.""")
-	
-	raw_input("Press ENTER to continue.")
-	
-	tcp = TCPGecko(ip)
-	print("""\n""")
-	
 	#amiibo_timer_addr = int(hexlify(tcp.readmem(0x1CAB476C, 4)), 16) + int(0x2B4)
 	amiibo_timer_addr = int(hexlify(tcp.readmem(0x1CAB5778, 4)), 16) + int(0x2B4)
 	
@@ -26,6 +25,7 @@ while amiibo_timer:
 		if amiibo_timer < 0:
 			print("Number too low.")
 			time.sleep(1.5)
+			os.system("cls")
 			amiibo_timer = True
 		elif amiibo_timer == 0:
 			amiibo_timer = False
@@ -42,5 +42,6 @@ while amiibo_timer:
 	else:
 		print("Number too high.")
 		time.sleep(1.5)
+		os.system("cls")
 		
 

@@ -1,18 +1,16 @@
 #from tcpgecko import TCPGecko
+absolutely_unused_variable = os.system("cls")
 
+print("""Please  launch into a recon stage before you begin.""")
+	
+raw_input("Press ENTER to continue.")
+	
+tcp = TCPGecko(ip)
+print("""\n""")
 
 dojo_timer = True
 while dojo_timer:
-	absolutely_unused_variable = os.system("cls")
-	print("""Please  launch into a dojo stage before you begin.""")
-	
-	raw_input("Press ENTER to continue.")
-	
-	tcp = TCPGecko(ip)
-	print("""\n""")
-	
 	dojo_timer_addr = int(hexlify(tcp.readmem(0x1CAAA218, 4)), 16) + int(0x280)
-	
 	
 	print("""Please set time value in seconds. Anything over 6039 s will make the time freeze. \nType 0 to return to the menu.""")
 	try:
@@ -26,6 +24,7 @@ while dojo_timer:
 		if dojo_timer < 0:
 			print("Number too low.")
 			time.sleep(1.5)
+			os.system("cls")
 			dojo_timer = True
 		elif dojo_timer == 0:
 			dojo_timer = False
@@ -42,4 +41,4 @@ while dojo_timer:
 	else:
 		print("Number too high.")
 		time.sleep(1.5)
-
+		os.system("cls")
