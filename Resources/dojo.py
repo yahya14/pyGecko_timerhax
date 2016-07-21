@@ -27,7 +27,6 @@ while dojo_timer:
             print("Number too low.")
             time.sleep(1.5)
             os.system("cls")
-            time.sleep(1)
         elif dojo_timer == -1:
             dojo_timer = False
             tcp.s.close()
