@@ -1,6 +1,6 @@
 absolutely_unused_variable = os.system("cls")
 
-print("""Please  launch into a recon stage before you begin.""")
+print("""Please launch into a recon stage before you begin.""")
     
 raw_input("Press ENTER to continue.")
     
