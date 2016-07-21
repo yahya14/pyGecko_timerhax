@@ -29,7 +29,6 @@ while recon_timer:
             print("Number too low.")
             time.sleep(1.5)
             os.system("cls")
-            time.sleep(1)
         elif recon_timer == -1:
             recon_timer = False
             tcp.s.close()
