@@ -20,6 +20,4 @@ Example: 192.168.1.110\n""")
     save.close()
     ip = fresh_ip
 
-
-
 execfile("./Resources/menu.py")
