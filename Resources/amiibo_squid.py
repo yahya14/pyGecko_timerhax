@@ -29,7 +29,6 @@ while amiibo_timer:
             print("Number too low.")
             time.sleep(1.5)
             os.system("cls")
-            amiibo_timer = True
         elif amiibo_timer == -1:
             amiibo_timer = False
             tcp.s.close()
