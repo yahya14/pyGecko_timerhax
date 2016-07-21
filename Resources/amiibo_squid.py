@@ -13,7 +13,7 @@ while amiibo_timer:
     #amiibo_timer_addr = int(hexlify(tcp.readmem(0x1CAB476C, 4)), 16) + int(0x2B4)
     amiibo_timer_addr = int(hexlify(tcp.readmem(0x1CAB5778, 4)), 16) + int(0x2B4)
     
-    print("""Please set time value in seconds. Timer will seem to freeze at values over 180-240 s. \n\n<0> Set the maximum time at 71582788 s.\n<RETURN> Return to the menu.\n\n""")
+    print("""Please set time value in seconds. Timer will seem to freeze at values over 180-240 s. \n\n<0> Set the maximum time at 71582788 s.\n<ENTER> Return to the menu.\n\n""")
     try:
         amiibo_timer = raw_input(">> ")
         amiibo_timer = amiibo_timer or -1
