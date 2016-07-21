@@ -35,7 +35,7 @@ while amiibo_timer:
             tcp.s.close()
             print("returning to menu.")
             time.sleep(1)
-        elif amiibo_timer == -0:
+        elif amiibo_timer == 0:
             tcp.pokemem(amiibo_timer_addr, 0xFFFFFFFE)
             print("Poked timer to 71582788 seconds!")
             amiibo_timer = False
