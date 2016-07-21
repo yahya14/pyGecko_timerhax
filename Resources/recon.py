@@ -53,30 +53,3 @@ while recon_timer:
         time.sleep(1)
         os.system("cls")
 
-
-
-#old embarrasing code, 
-'''
-while recon_timer:
-    os.system("cls")
-    
-    #tcp = TCPGecko(ip)
-    
-    print("""Starting...\n\nYou first have to launch into a recon stage before you begin.""")
-    
-    raw_input("Press ENTER to continue.")
-    
-    recon_timer_addr = int(hexlify(tcp.readmem(0x1CAA913C, 4)), 16) + int(0x280)
-    
-    print("""\nInput the time in seconds""")
-    
-    recon_timer = raw_input(">> ")
-    
-    tcp.pokemem(recon_timer_addr, recon_timer)
-    
-    print "Success!"
-    time.sleep(1.6)  # Delay for 3 seconds
-
-    #tcp.s.close()
-'''
-
