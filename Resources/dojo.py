@@ -11,7 +11,7 @@ dojo_timer = True
 while dojo_timer:
     dojo_timer_addr = int(hexlify(tcp.readmem(0x1CAAA218, 4)), 16) + int(0x280)
     
-    print("""Please set the time value in seconds. 71582788 s is the maximum.\n\n<0> to set the maximum time.\n<RETURN> to return to the menu.\n\n""")
+    print("""Please set the time value in seconds. Timer will seem to freeze at any value over 6039 s. \n\n<0> Set the maximum time at 71582788 s.\n<RETURN> Return to the menu.\n\n""")
     try:
         dojo_timer = raw_input(">> ")
         dojo_timer = dojo_timer or -1

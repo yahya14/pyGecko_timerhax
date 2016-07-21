@@ -13,7 +13,7 @@ while recon_timer:
     #recon_timer_addr = int(hexlify(tcp.readmem(0x1CAA913C, 4)), 16) + int(0x280) 2.8.0
     recon_timer_addr = int(hexlify(tcp.readmem(0x1CAAA144, 4)), 16) + int(0x280)
     
-    print("""Please set time value in seconds. 71582788 s is the maximum.\n\n<0> to set the maximum time.\n<RETURN> to return to the menu.\n\n""")
+    print("""Please set time value in seconds. Timer will seem to freeze at any value over 6039 s. \n\n<0> Set the maximum time at 71582788 s.\n<RETURN> Return to the menu.\n\n""")
     try:
         recon_timer = raw_input(">> ")
         recon_timer = recon_timer or -1

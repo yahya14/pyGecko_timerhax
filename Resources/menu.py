@@ -3,7 +3,7 @@ os.system('cls')
 choice = True
 while choice:
 	os.system("cls")
-	print("Versus Timerhax for Splatoon 2.10.0 -- Wii U IP: %s" % (ip))
+	print("Versus Timer Changer for Splatoon 2.10.0 -- Wii U IP: %s" % (ip))
 	print("Written by Yahya, credits to Seresaa and his Splat AIO")
 	
 	print("""\nPlease press a button followed by ENTER:""")
