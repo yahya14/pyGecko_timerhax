@@ -15,8 +15,7 @@ That's it really.
 **How to use**:
 
 Download the all the files as zip and extract it on your computer.
-Run the timer.bat to run the script. 
-Then follow instructions provided in the script.
+Run the timer.bat to run the script and follow instructions provided.
 
 **Credits:**
 
