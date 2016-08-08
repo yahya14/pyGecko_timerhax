@@ -17,6 +17,10 @@ That's it really.
 Download the all the files as zip and extract it on your computer.
 Run the timer.bat to run the script and then follow the instructions provided.
 
+**Known issues:**
+
+Due to the weird offsets in other versions of TCPGecko, this script only works in loadiine.ovh. 
+
 **Credits:**
 
 Script structure based on Seresaa's Splat-AIO. I couldn't make this program without it.
