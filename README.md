@@ -19,7 +19,7 @@ Run the timer.bat to run the script and then follow the instructions provided.
 
 **Known issues:**
 
-Due to the weird offsets in other versions of TCPGecko, this script only works in loadiine.ovh. 
+Due to the weird offsets in different versions of TCPGecko, this script only works in loadiine.ovh. 
 
 **Credits:**
 
