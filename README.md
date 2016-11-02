@@ -1,5 +1,5 @@
 
-# Timerhax for Splatoon v2.10.0
+# Timerhax for Splatoon v2.10.0 (v2.10.0)
 A Python script for adjusting the timer in Splatoon in 3 different modes:
 
 - Recon
